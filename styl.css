@@ -1,3 +1,7 @@
 body{background-color: rgb(176, 255, 212);}
 h1{text-align: center;}
-article{align: right;margin: 100px}
+article{float: right;margin: 100px}
+a:link{color:rgb(16, 231, 203);text-decoration: none;}
+a:visited{color: rgb(0, 7, 100);text-decoration: none;}
+a:hover{color: rgb(9, 255, 0);text-decoration:underline;}
+article{width: 500px;}
