@@ -16,7 +16,8 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {color: rgb(9, 255, 0);
+a:hover {
+    color: rgb(9, 255, 0);
     text-decoration: underline;
 }
 
@@ -25,4 +26,29 @@ article {
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    grid-gap: 10px;
+}
+
+.grid-main h2 {
+    text-align: center;
+}
+
+.grid-main img {
+    width: 100%;
+}
+
+.grid-left {
+    grid-column: 1;
+    margin-left: 10px;
+}
+
+.grid-right {
+    grid-column: 2;
+    margin-right: 10px;
 }
