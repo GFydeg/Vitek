@@ -6,8 +6,10 @@ h1 {
     text-align: center;
 }
 
+
 article{
-    float: right;margin: 100px
+    float: right;
+    margin: 100px;
 }
 
 a:link {
@@ -21,7 +23,7 @@ a:visited {
 }
 
 a:hover {color: rgb(9, 255, 0);
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 article {
