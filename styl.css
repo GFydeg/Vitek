@@ -6,12 +6,6 @@ h1 {
     text-align: center;
 }
 
-
-article{
-    float: right;
-    margin: 100px;
-}
-
 a:link {
     color:rgb(16, 231, 203);
     text-decoration: none;
@@ -28,4 +22,7 @@ a:hover {color: rgb(9, 255, 0);
 
 article {
     width: 500px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
