@@ -52,3 +52,21 @@ article {
     grid-column: 2;
     margin-right: 10px;
 }
+
+.table-deafult {
+    width: 100%;
+}
+
+.table-deafult tbody tr td {
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+}
+
+.table-deafult thead tr th {
+    border-bottom: 3px solid black;
+}
+
+.table-deafult tbody tr td img {
+    width: 100%;
+}
