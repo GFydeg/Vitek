@@ -70,3 +70,12 @@ article {
 .table-deafult tbody tr td img {
     width: 100%;
 }
+
+p {
+    width: 300px;
+}
+
+img {
+size: 100%;
+
+}
