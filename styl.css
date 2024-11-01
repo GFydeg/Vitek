@@ -75,7 +75,6 @@ p {
     width: 300px;
 }
 
-img {
-size: 100%;
-
+.vpravo{
+    float: right; margin-right: 200px;
 }
