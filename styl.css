@@ -67,14 +67,23 @@ article {
     border-bottom: 3px solid black;
 }
 
-.table-deafult tbody tr td img {
-    width: 100%;
-}
-
 p {
     width: 300px;
 }
 
 .vpravo{
-    float: right; margin-right: 200px;
+    float: right; 
+    margin-right: 200px;
+}
+
+tbody tr td img {
+    width: 100%;
+}
+
+tbody tr td:first-child {
+    width: 10%;
+}
+
+tbody tr td:nth-child(2) {
+    font-size: 250%;
 }
